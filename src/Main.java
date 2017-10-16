@@ -49,7 +49,7 @@ public class Main {
 				dao1.insertPlayerCards(e.getPlayerCards());
 				dao1.insertPlayerAssistsGoals(e.getPlayerAssists());
 			}catch(SQLException e1) {
-				System.out.println("Error in XLSX handling/inserting");
+				System.out.println("Error in EXCEL handling/inserting");
 				e1.getMessage();
 				e1.printStackTrace();
 			}
